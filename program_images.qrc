@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="program_img">
+    <file>picture/jiao.png</file>
+    <file>picture/Paper_timeline.png</file>
+    <file>picture/math.png</file>
+    <file>picture/python.png</file>
+    <file>picture/clock.jpg</file>
+  </qresource>
+</RCC>

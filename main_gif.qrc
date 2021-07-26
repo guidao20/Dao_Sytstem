@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="gif">
+    <file>picture/mind.gif</file>
+    <file>picture/python.jpg</file>
+    <file>picture/paper.gif</file>
+    <file>picture/program.gif</file>
+    <file>picture/work.gif</file>
+  </qresource>
+</RCC>

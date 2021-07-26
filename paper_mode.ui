@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>960</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>960</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,4">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="font">
+      <font>
+       <family>.萍方-简</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 170, 255);</string>
+     </property>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>20</y>
+        <width>221</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>论文世界</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文宋体</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-radius:25px;
+	color: rgb(255, 85, 0);
+}
+
+QPushButton:hover {
+	border:4px double rgb(85, 0, 127);
+	background-color:rgb(0, 255, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>exit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>40</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>bar</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 170, 0);</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="font">
+         <font>
+          <family>华文楷体</family>
+          <pointsize>36</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 255, 255);</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>20</y>
+           <width>191</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>28</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>论文查阅</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QWidget" name="widget_5" native="true">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>100</y>
+           <width>431</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>111</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>收藏</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>20</y>
+            <width>111</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>浏览</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>20</y>
+            <width>111</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>整理</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_7" native="true">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>110</y>
+            <width>431</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>收藏</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_15">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>浏览</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_16">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>整理</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_8" native="true">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>100</y>
+             <width>431</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <widget class="QPushButton" name="pushButton_17">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>收藏</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_18">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>浏览</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_19">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>整理</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_6" native="true">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>60</y>
+            <width>431</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>收藏</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>浏览</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>整理</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_10" native="true">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>110</y>
+             <width>431</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <widget class="QPushButton" name="pushButton_23">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>收藏</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_24">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>浏览</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_25">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>整理</string>
+            </property>
+           </widget>
+           <widget class="QWidget" name="widget_13" native="true">
+            <property name="geometry">
+             <rect>
+              <x>370</x>
+              <y>100</y>
+              <width>431</width>
+              <height>111</height>
+             </rect>
+            </property>
+            <widget class="QPushButton" name="pushButton_32">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>20</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>华文楷体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>收藏</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_34">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>20</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>华文楷体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>浏览</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_35">
+             <property name="geometry">
+              <rect>
+               <x>300</x>
+               <y>20</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>华文楷体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>整理</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="widget_9" native="true">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>490</y>
+           <width>401</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="pushButton_20">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>20</y>
+            <width>61</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>AI</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_21">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>61</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Life</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_22">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>20</y>
+            <width>81</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Model</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_11" native="true">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>110</y>
+            <width>431</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <widget class="QPushButton" name="pushButton_26">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>收藏</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_27">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>浏览</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_28">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>整理</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_12" native="true">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>100</y>
+             <width>431</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <widget class="QPushButton" name="pushButton_29">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>收藏</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_30">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>浏览</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_31">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>整理</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_33">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>20</y>
+            <width>91</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(170, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>Friends</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>220</y>
+           <width>191</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>28</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 255);</string>
+         </property>
+         <property name="text">
+          <string>论文支撑</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QWidget" name="widget_14" native="true">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>290</y>
+           <width>431</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <widget class="QPushButton" name="pushButton_36">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>111</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>写作</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_37">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>20</y>
+            <width>111</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>英语</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_15" native="true">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>110</y>
+            <width>431</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <widget class="QPushButton" name="pushButton_39">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>收藏</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_40">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>浏览</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_41">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>整理</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_16" native="true">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>100</y>
+             <width>431</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <widget class="QPushButton" name="pushButton_42">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>收藏</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_43">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>浏览</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_44">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>整理</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_17" native="true">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>60</y>
+            <width>431</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <widget class="QPushButton" name="pushButton_52">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>收藏</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_54">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>浏览</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_55">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>20</y>
+             <width>111</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>华文楷体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>整理</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="widget_18" native="true">
+           <property name="geometry">
+            <rect>
+             <x>330</x>
+             <y>110</y>
+             <width>431</width>
+             <height>111</height>
+            </rect>
+           </property>
+           <widget class="QPushButton" name="pushButton_56">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>收藏</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_57">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>浏览</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_58">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>111</width>
+              <height>61</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>华文楷体</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>整理</string>
+            </property>
+           </widget>
+           <widget class="QWidget" name="widget_19" native="true">
+            <property name="geometry">
+             <rect>
+              <x>370</x>
+              <y>100</y>
+              <width>431</width>
+              <height>111</height>
+             </rect>
+            </property>
+            <widget class="QPushButton" name="pushButton_59">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>20</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>华文楷体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>收藏</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_60">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>20</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>华文楷体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>浏览</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_61">
+             <property name="geometry">
+              <rect>
+               <x>300</x>
+               <y>20</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>华文楷体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>整理</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_38">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>20</y>
+            <width>111</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文楷体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);</string>
+          </property>
+          <property name="text">
+           <string>知识</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 255, 127);</string>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>480</width>
+           <height>624</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/program_img/picture/Paper_timeline.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_12">
+         <property name="geometry">
+          <rect>
+           <x>186</x>
+           <y>148</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>想法锻造</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_45">
+         <property name="geometry">
+          <rect>
+           <x>186</x>
+           <y>474</y>
+           <width>121</width>
+           <height>121</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>评审交互</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_46">
+         <property name="geometry">
+          <rect>
+           <x>337</x>
+           <y>148</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>技术方案</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_48">
+         <property name="geometry">
+          <rect>
+           <x>35</x>
+           <y>148</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>前期准备</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_49">
+         <property name="geometry">
+          <rect>
+           <x>186</x>
+           <y>309</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>论文写作</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_50">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>309</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>修正错误</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_51">
+         <property name="geometry">
+          <rect>
+           <x>337</x>
+           <y>309</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>编程实验</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_53">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>474</y>
+           <width>118</width>
+           <height>118</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>期刊投稿</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>20</y>
+           <width>191</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>28</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>论文创作</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_47">
+         <property name="geometry">
+          <rect>
+           <x>337</x>
+           <y>474</y>
+           <width>121</width>
+           <height>121</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border-radius:50px;
+	color: rgb(0,0,0);
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 255, 255);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>善后处理</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="number_le">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>90</y>
+           <width>31</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(251, 229, 214);</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>90</y>
+           <width>31</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(251, 229, 224);</string>
+         </property>
+         <property name="text">
+          <string>第</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>90</y>
+           <width>91</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文楷体</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(251, 229, 214);</string>
+         </property>
+         <property name="text">
+          <string>篇论文</string>
+         </property>
+        </widget>
+        <zorder>label</zorder>
+        <zorder>pushButton_48</zorder>
+        <zorder>pushButton_12</zorder>
+        <zorder>pushButton_45</zorder>
+        <zorder>pushButton_46</zorder>
+        <zorder>pushButton_49</zorder>
+        <zorder>pushButton_50</zorder>
+        <zorder>pushButton_51</zorder>
+        <zorder>pushButton_53</zorder>
+        <zorder>pushButton_4</zorder>
+        <zorder>pushButton_47</zorder>
+        <zorder>number_le</zorder>
+        <zorder>label_2</zorder>
+        <zorder>label_3</zorder>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="program_images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>paper_exit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>61</x>
+     <y>-20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>collection()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>116</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-4</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>lookup()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>246</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>-18</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_48</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>preparation()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>579</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>584</x>
+     <y>-4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>idea_generation()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>726</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>729</x>
+     <y>-10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_46</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>technical_proposal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>874</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>858</x>
+     <y>-5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_50</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>fix_error()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>541</x>
+     <y>486</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>527</x>
+     <y>-9</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_49</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>paper_writing()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>726</x>
+     <y>493</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>682</x>
+     <y>-5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_51</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>paper_program()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>846</x>
+     <y>483</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>827</x>
+     <y>-23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_53</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>journal_contribution()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>573</x>
+     <y>690</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-2</x>
+     <y>733</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_45</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>review_interaction()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>691</x>
+     <y>-13</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_47</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>aftertreatment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>840</x>
+     <y>664</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>875</x>
+     <y>-10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>Contribute()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>361</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>-4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_36</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>support_writing()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>122</x>
+     <y>476</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>118</x>
+     <y>-20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_37</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>support_English()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>478</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>233</x>
+     <y>-5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>show_progressbar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>914</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>963</x>
+     <y>66</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>AI_math()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>726</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-3</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_21</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>Life_math()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>189</x>
+     <y>726</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>181</x>
+     <y>-8</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_22</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>Model_math()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>726</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>-11</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_33</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>English_Friends()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>392</x>
+     <y>726</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-5</x>
+     <y>679</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_37</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>show_english()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>231</x>
+     <y>487</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>-16</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_38</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>knowledge()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>476</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>-4</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>paper_exit()</slot>
+  <slot>run_check_see()</slot>
+  <slot>writing_show()</slot>
+  <slot>read_paper()</slot>
+  <slot>math_AI()</slot>
+  <slot>collection()</slot>
+  <slot>lookup()</slot>
+  <slot>knowledge()</slot>
+  <slot>Life_math()</slot>
+  <slot>Model_math()</slot>
+  <slot>English_Friends()</slot>
+  <slot>preparation()</slot>
+  <slot>idea_generation()</slot>
+  <slot>technical_proposal()</slot>
+  <slot>fix_error()</slot>
+  <slot>paper_writing()</slot>
+  <slot>paper_program()</slot>
+  <slot>journal_contribution()</slot>
+  <slot>review_interaction()</slot>
+  <slot>aftertreatment()</slot>
+  <slot>Contribute()</slot>
+  <slot>support_writing()</slot>
+  <slot>support_English()</slot>
+  <slot>support_math()</slot>
+  <slot>show_progressbar()</slot>
+  <slot>show_english()</slot>
+ </slots>
+</ui>

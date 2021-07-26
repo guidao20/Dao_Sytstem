@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,1" columnstretch="1,1">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="1">
+    <widget class="QWidget" name="program" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="program_btn">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>140</y>
+        <width>221</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+QPushButton {
+	color: rgb(0, 170, 0);
+	border-radius:10px;
+}
+QPushButton:hover {
+	background-color: rgb(170, 255, 255);
+}
+QPushButton:pressed {
+	background-color: rgb(188, 163, 200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Program</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="program_l">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>480</width>
+        <height>390</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>program_l</zorder>
+     <zorder>program_btn</zorder>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="mindself" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="mindself_btn">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>140</y>
+        <width>271</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgb(255, 170, 0);
+	border-radius:10px;
+}
+QPushButton:hover {
+	background-color: rgb(255, 255, 127);
+}
+QPushButton:pressed {
+	background-color: rgb(188, 163, 200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Introspection</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="mindself_l">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>480</width>
+        <height>390</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>mindself_l</zorder>
+     <zorder>mindself_btn</zorder>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QWidget" name="working" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="working_btn">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>150</y>
+        <width>251</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border-radius:10px;
+}
+QPushButton:hover {
+	background-color: rgb(225, 225, 225);
+}
+QPushButton:pressed {
+	background-color: rgb(188, 163, 200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Harmonious</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="working_l">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>480</width>
+        <height>390</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>working_l</zorder>
+     <zorder>working_btn</zorder>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QWidget" name="paper" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="paper_btn">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>150</y>
+        <width>160</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: rgb(255, 0, 127);
+	border-radius:10px;
+}
+QPushButton:hover {
+	background-color:rgb(153, 80, 255);
+}
+QPushButton:pressed {
+	background-color: rgb(188, 163, 200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Paper</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="paper_l">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>480</width>
+        <height>390</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>paper_l</zorder>
+     <zorder>paper_btn</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>paper_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>paper_pane_show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>223</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>program_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>program_pane_show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>706</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>707</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mindself_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>mind_pane_show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>779</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>working_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>work_pane_show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>708</x>
+     <y>625</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>710</x>
+     <y>779</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>paper_pane_show()</slot>
+  <slot>program_pane_show()</slot>
+  <slot>mind_pane_show()</slot>
+  <slot>work_pane_show()</slot>
+ </slots>
+</ui>
